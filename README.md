@@ -2,7 +2,7 @@
 # Vanity Sui Address Generator
 
 This is a high-performance, multi-threaded **vanity address generator** for the Sui blockchain. It generates Sui wallet addresses based on a user-defined prefix using Rust and the Sui SDK. This tool uses Rayon to parallelize the work across multiple threads, making it suitable for generating vanity addresses efficiently.
-
+**Use at your own risk as it's an experimental project!**
 
 ## Installation
 
