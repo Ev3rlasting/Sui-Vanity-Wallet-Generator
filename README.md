@@ -12,7 +12,7 @@ To build this tool, you will need to have Rust installed on your machine. You ca
 
    ```bash
    git clone https://github.com/Ev3rlasting/Sui-Vanity-Wallet-Generator
-   cd vanity-sui-generator
+   cd Sui-Vanity-Wallet-Generator
    ```
 
 2. Build the project:
@@ -62,7 +62,3 @@ Thread SomeThreadID Attempts: 10000000
 - **Rayon**: Enables parallelism across CPU cores.
 - **Clap**: For command-line argument parsing.
 - **Regex**: To match the desired prefix pattern.
-- 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
