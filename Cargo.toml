@@ -1,0 +1,13 @@
+[package]
+name = "sui-vanity-wallet-generator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+sui_sdk = { git = "https://github.com/mystenlabs/sui", package = "sui-sdk"}
+tokio = { version = "1.40.0", features = ["full"] }
+rand = "0.8.5"
+regex = "1.10.6"
+rayon = "1.10.0"
+clap = { version = "4.5.17", features = ["derive"] }
