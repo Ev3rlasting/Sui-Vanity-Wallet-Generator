@@ -54,7 +54,7 @@ async fn main() {
                     // Increment the global attempt count
                     let current_attempts = value.fetch_add(1, Ordering::Relaxed);
                     if current_attempts % 10000000 == 0 {
-                        println!("Thread {:?} Attempts: {}", std::thread::current().id(), current_attempts);
+                        println!("{} {:?} Attempts: {}", chrono::Utc::now(), std::thread::current().id(), current_attempts);
                     }
                 }
             });
