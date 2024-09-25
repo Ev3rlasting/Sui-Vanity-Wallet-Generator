@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 
-sui_sdk = { git = "https://github.com/mystenlabs/sui", package = "sui-sdk"}
+sui_sdk = { git = "https://github.com/mystenlabs/sui", tag = "mainnet-v1.33.2", package = "sui-sdk" }
 tokio = { version = "1.40.0", features = ["full"] }
 rand = "0.8.5"
 regex = "1.10.6"
